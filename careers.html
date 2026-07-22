@@ -3,80 +3,291 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Careers | Aim Think Tank</title>
-  <link rel="icon" href="favicon.png" type="image/x-icon" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
-  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <title>Careers | AIM THINK TANK</title>
+
+  <meta
+    name="description"
+    content="Explore current career opportunities at AIM THINK TANK in the Greater Seattle Area."
+  />
+
+  <link rel="icon" href="favicon.png" type="image/png" />
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    rel="stylesheet"
+  />
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+    rel="stylesheet"
+  />
+
   <style>
-    html { scroll-behavior: smooth; }
-    body { padding-top: 72px; }
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      padding-top: 72px;
+      background-color: #ffffff;
+    }
+
+    .career-header {
+      background-color: #f8f9fa;
+    }
+
+    .job-card {
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      height: 100%;
+    }
+
+    .job-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.12) !important;
+    }
+
+    .job-title-link {
+      color: #212529;
+      text-decoration: none;
+    }
+
+    .job-title-link:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
+
 <body>
 
 <!-- Navigation Bar -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow-sm">
   <div class="container">
-    <a class="navbar-brand fw-bold" href="index.html">AIM THINK TANK</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+    <a class="navbar-brand fw-bold" href="index.html">
+      AIM THINK TANK
+    </a>
+
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+
+    <div
+      class="collapse navbar-collapse justify-content-end"
+      id="navbarNav"
+    >
       <ul class="navbar-nav">
-        <li class="nav-item"><a class="nav-link" href="index.html#about">About Us</a></li>
-        <li class="nav-item"><a class="nav-link" href="index.html#projects">Projects</a></li>
-        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-        <li class="nav-item"><a class="nav-link" href="index.html#services">Services</a></li>
-        <li class="nav-item"><a class="nav-link active" href="#">Careers</a></li>
-        <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#about">About Us</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#projects">Projects</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="blog.html">Blog</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#services">Services</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link active" href="careers.html">Careers</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#contact">Contact</a>
+        </li>
       </ul>
     </div>
   </div>
 </nav>
 
-<!-- Careers Section -->
-<section class="py-5" data-aos="fade-up">
-  <div class="container">
-    <h2 class="text-center mb-4">Join Our Team</h2>
-    <p class="text-center mb-5">
-      At AIM THINK TANK, we’re always looking for motivated, creative, and detail-oriented professionals to join our team.
+<!-- Career Header -->
+<header class="career-header py-5">
+  <div class="container text-center py-4">
+    <h1 class="display-5 fw-bold mb-3">Join Our Team</h1>
+
+    <p class="lead text-muted mx-auto" style="max-width: 800px;">
+      AIM THINK TANK is a multidisciplinary practice specializing in
+      architecture, development, and integrated project delivery.
+      Explore our current opportunities in the Greater Seattle Area.
     </p>
-
-    <div class="mb-4">
-      <h5>🌱 Entry-Level Landscape Designer</h5>
-      <p>
-        We're looking for a recent graduate or junior designer passionate about sustainable outdoor environments. You'll support design development, planting plans, and 3D renderings.
-      </p>
-    </div>
-
-    <div class="mb-4">
-      <h5>🛠️ Civil Engineer (3–5 Years of Experience)</h5>
-      <p>
-        Seeking a civil engineer experienced in site planning, grading, and drainage design for residential and mixed-use projects. PE license preferred.
-      </p>
-    </div>
-
-    <div class="mb-4">
-      <h5>🏗️ Structural Engineer (3–5 Years of Experience)</h5>
-      <p>
-        Join our team to support structural analysis and design for wood-frame and concrete structures. Experience with residential and small commercial projects required.
-      </p>
-    </div>
-
-    <div class="text-center mt-4">
-      <p>
-        To apply, please send your resume and portfolio (if applicable) to
-        <a href="mailto:echoaimtt@gmail.com">echoaimtt@gmail.com</a>
-      </p>
-    </div>
   </div>
-</section>
+</header>
+
+<!-- Open Positions -->
+<main class="py-5" data-aos="fade-up">
+  <div class="container">
+
+    <div class="text-center mb-5">
+      <h2 class="mb-3">Current Open Positions</h2>
+      <p class="text-muted">
+        Select a position below to review the full job description,
+        qualifications, and application instructions.
+      </p>
+    </div>
+
+    <div class="row g-4">
+
+      <!-- Structural Engineer -->
+      <div class="col-lg-4 col-md-6">
+        <div class="card job-card border-0 shadow-sm">
+          <div class="card-body p-4 d-flex flex-column">
+
+            <p class="text-uppercase small fw-semibold text-muted mb-2">
+              Engineering
+            </p>
+
+            <h3 class="h4 mb-3">
+              <a
+                href="structural-engineer.html"
+                class="job-title-link"
+              >
+                Structural Engineer
+              </a>
+            </h3>
+
+            <p class="text-muted mb-3">
+              Greater Seattle Area<br />
+              Full-Time / Part-Time
+            </p>
+
+            <p class="mb-4">
+              Support residential and small-scale development projects
+              through structural calculations, permit-ready drawings,
+              technical coordination, and design problem-solving.
+            </p>
+
+            <div class="mt-auto">
+              <a
+                href="structural-engineer.html"
+                class="btn btn-outline-dark"
+              >
+                View Job Description
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Licensed Architect -->
+      <div class="col-lg-4 col-md-6">
+        <div class="card job-card border-0 shadow-sm">
+          <div class="card-body p-4 d-flex flex-column">
+
+            <p class="text-uppercase small fw-semibold text-muted mb-2">
+              Architecture
+            </p>
+
+            <h3 class="h4 mb-3">
+              <a
+                href="licensed-architect.html"
+                class="job-title-link"
+              >
+                Licensed Architect
+              </a>
+            </h3>
+
+            <p class="text-muted mb-3">
+              Greater Seattle Area<br />
+              Full-Time / Part-Time
+            </p>
+
+            <p class="mb-4">
+              Lead residential and mixed-use architectural projects,
+              prepare permit-ready drawing sets, coordinate consultants,
+              and support projects through permitting.
+            </p>
+
+            <div class="mt-auto">
+              <a
+                href="licensed-architect.html"
+                class="btn btn-outline-dark"
+              >
+                View Job Description
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Design Project Manager -->
+      <div class="col-lg-4 col-md-6">
+        <div class="card job-card border-0 shadow-sm">
+          <div class="card-body p-4 d-flex flex-column">
+
+            <p class="text-uppercase small fw-semibold text-muted mb-2">
+              Project Management
+            </p>
+
+            <h3 class="h4 mb-3">
+              <a
+                href="design-project-manager.html"
+                class="job-title-link"
+              >
+                Design Project Manager
+              </a>
+            </h3>
+
+            <p class="text-muted mb-3">
+              Greater Seattle Area<br />
+              Full-Time
+            </p>
+
+            <p class="mb-4">
+              Manage multidisciplinary design and development projects
+              from feasibility and entitlement strategy through
+              construction documentation and permit approval.
+            </p>
+
+            <div class="mt-auto">
+              <a
+                href="design-project-manager.html"
+                class="btn btn-outline-dark"
+              >
+                View Job Description
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="text-center mt-5">
+      <p class="text-muted mb-0">
+        Application instructions are provided on each individual job page.
+      </p>
+    </div>
+
+  </div>
+</main>
 
 <!-- Scripts -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-<script>AOS.init();</script>
+
+<script>
+  AOS.init();
+</script>
 
 </body>
 </html>
